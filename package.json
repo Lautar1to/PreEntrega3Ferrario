@@ -4,7 +4,9 @@
   "description": "Tercer Pre Entrega para Coderhouse. Hice una web sobre una cafetería.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "sass",
+    "sass:watch": "sass --watch sass/main.sass css/main.css"
   },
   "repository": {
     "type": "git",
@@ -20,6 +22,7 @@
   },
   "homepage": "https://github.com/Lautar1to/PreEntrega3Ferrario#readme",
   "dependencies": {
-    "sass": "^1.57.1"
+    "sass": "^1.57.1",
+    "tailwindcss": "^3.2.4"
   }
 }

@@ -1,0 +1,25 @@
+{
+  "name": "preentrega3ferrario",
+  "version": "1.0.0",
+  "description": "Tercer Pre Entrega para Coderhouse. Hice una web sobre una cafetería.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lautar1to/PreEntrega3Ferrario.git"
+  },
+  "keywords": [
+    "cafeteria"
+  ],
+  "author": "Lautaro Ferrario",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Lautar1to/PreEntrega3Ferrario/issues"
+  },
+  "homepage": "https://github.com/Lautar1to/PreEntrega3Ferrario#readme",
+  "dependencies": {
+    "sass": "^1.57.1"
+  }
+}

@@ -1,14 +1,19 @@
 // Required
 @import "../node_modules/bootstrap/scss/functions";
 @import "../node_modules/bootstrap/scss/variables";
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+}
+$txtactivo: #A66249;
 
 // Create your own map
 $custom-colors: (
   "colorbtn": #735145,
-  "coloractivo": #A66249,
+  "coloractivo": $txtactivo,
 );
-$footerTexto: #fff;
-// Merge the maps
+$footerTexto: rgb(0, 0, 0);
 $theme-colors: map-merge($theme-colors, $custom-colors);
 
 $body-bg: #F0F1F5;
@@ -16,6 +21,10 @@ $body-bg: #F0F1F5;
 
 footer p {
   color: $footerTexto;
+  a{
+    color: $txtactivo;
+    font-family: 'Covered By Your Grace', cursive;
+  }
 }
 
 

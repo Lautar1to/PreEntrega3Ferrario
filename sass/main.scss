@@ -5,6 +5,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@300&display=swap');
 * {
+  font-size:24px;
   font-family: "Poppins", sans-serif;
 }
 $txtactivo: #a66249;
@@ -46,6 +47,18 @@ tr {
     color: $txtactivo;
     font-family: 'Sansita Swashed', cursive;
     background-color: red;
+  }
+}
+
+div {
+  .card-img-top {
+    margin: auto;
+    width: 640px; 
+    padding: 50px;
+  }
+  .card-text{
+    text-decoration-line: underline;
+    text-decoration-thickness: 25%
   }
 }
 @import "../node_modules/bootstrap/scss/bootstrap";
